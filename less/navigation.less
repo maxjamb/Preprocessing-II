@@ -1,40 +1,65 @@
 // Navigation Styles here
 
-.navbar{
-    // border: 1px solid red;
-    display:flex;
-    height: 8rem;
-    border-bottom: 2px dashed @navigation-border;   
-}
-
-.width{
-    max-width: 800px;
-    // margin: 0 auto;
+.width {
+    // border: 5px solid green;
+    width: 800px;
+    margin: 0 auto;
     display:flex;
     justify-content: space-between;
-    width: 100%;
+    align-content: center;
+    padding-top:10px;
+
+    @media @mobile {
+        background: red;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        // width: 100%;
+    }
+    .logo{
+        display:flex;
+        align-items: center;
+        flex:1;
+        justify-content: flex-start;
+        @media @mobile {
+            justify-content: center;
+            
+        }
+        
+
+    }
+}
+
+.navbar{
+    // border: 4px solid green;
+    display:flex;
+    height: 8rem;
+    border-bottom: 2px dashed @navigation-border;    
 }
 
 nav{
     // border: 1px solid green;
-    // width: 350px;
+    // margin-left: 300px;
+    // width: 45%;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    flex:1;
 
-     a {
+    @media @mobile {
+        background: red;
+        display:flex;
+    }
+
+    a {
         font-size: 16px;
         text-decoration: none;
         color: black;
-    
-        
-    }
+
+
+        @media @mobile {
+            width: 100%;
+        }
 }
 
-
-
-.logo{
-    // padding-left: 320px;
-    display:flex;
-    align-items: center;
 }

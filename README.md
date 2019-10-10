@@ -9,13 +9,13 @@ Fun Bus is a travel agency looking for some help on their website.  They want a 
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master.
 
 ## Task 2: Set up your preprocessor
 * [x] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your team lead for help.
@@ -26,7 +26,7 @@ Follow these steps for completing your project.
 
 ## Task 3: Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank.  In order for you to see the styles for this project you must import them in a certain order.  That order is as follows:
 
 1. `variables.less`
 2. `mixins.less`
@@ -45,7 +45,7 @@ Follow these steps for completing your project.
 
 
 ## Task 5: Mobile Updates Needed
-* [ ] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
+* [x] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
 * [ ] Review the [mobile design file](design-files/fun-bus-mobile.png). You will see several design updates that need updating. 
 * [ ] Match the design file at `500px` as well as you can 
 
